@@ -465,7 +465,7 @@ class DateRecurModularSierraWidget extends DateRecurModularWidgetBase {
       if ($interpreter) {
         $plugin = $interpreter->getPlugin();
         $language = $this->languageManager->getCurrentLanguage()->getId();
-        $interpretation = $plugin->interpret($rules, $language);
+        $interpretation = $plugin->interpret($rules, $language, new \DateTimeZone($timeZone));
       }
       else {
         $interpretation = (string) $this->t('Custom: - Missing interpreter -');
