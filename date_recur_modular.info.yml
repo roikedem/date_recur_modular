@@ -6,4 +6,4 @@ php: 7.3
 package: Field types
 dependencies:
   - drupal:system (>=9.0.x)
-  - date_recur:date_recur (>=8.x-2.x)
+  - date_recur:date_recur (>=3.x)
