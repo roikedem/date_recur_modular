@@ -20,9 +20,6 @@
 .date-recur-modular-oscar-widget .parts--part {
   padding: 0 .25em;
 }
-.date-recur-modular-oscar-widget .parts--daily-count input[type="number"] {
-  width: 3em;
-}
 .date-recur-modular-oscar-widget .parts--ordinals .form-checkboxes {
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +42,9 @@
 .date-recur-modular-oscar-widget .parts--weekdays .form-checkboxes label {
   /** Push the checkbox for this label onto the next line */
   display: block;
+}
+.date-recur-modular-oscar-widget .parts--weekdays .form-checkboxes input[type="checkbox"] {
+  margin-left: auto;
 }
 .date-recur-modular-oscar-widget .parts--times {
   background-color: #fafafa;
