@@ -283,7 +283,6 @@ class DateRecurModularOscarWidget extends DateRecurModularWidgetBase {
       '#field_suffix' => $this->t('days'),
       '#default_value' => $count ?? 1,
       '#min' => 1,
-      '#size' => 3,
     ];
     $element['daily_count']['#states'] = $this->getVisibilityStates($element, $fieldModes['daily_count'] ?? []);
 

@@ -20,6 +20,9 @@
 .date-recur-modular-oscar-widget .parts--part {
   padding: 0 .25em;
 }
+.date-recur-modular-oscar-widget .parts--daily-count input[type="number"] {
+  max-width: 5rem;
+}
 .date-recur-modular-oscar-widget .parts--ordinals .form-checkboxes {
   display: flex;
   flex-wrap: wrap;
