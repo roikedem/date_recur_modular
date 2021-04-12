@@ -1,5 +1,5 @@
 {
-  "name": "drupal/date_recur_modular",
+  "name": "roikedem/date_recur_modular",
   "type": "drupal-module",
   "description": "Recurring Date Fields Modular Widgets",
   "keywords": ["Drupal"],
@@ -13,6 +13,16 @@
   "require": {
     "php": ">=7.1",
     "drupal/core": "^8.9",
-    "drupal/date_recur": "^2.0@beta"
-  }
+    "roikedem/date_recur": "^2.0@beta"
+  },
+   "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/roikedem/php-rrule"
+        },
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ]
 }
