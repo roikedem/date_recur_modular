@@ -12,8 +12,7 @@
   },
   "require": {
     "php": ">=7.1",
-    "drupal/core": "^8.9",
-    "roikedem/date_recur": "^patched"
+    "drupal/core": "^8.9"
   },
    "repositories": [
         {
