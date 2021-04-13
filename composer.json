@@ -13,16 +13,6 @@
   "require": {
     "php": ">=7.1",
     "drupal/core": "^8.9",
-    "roikedem/date_recur": "^2.0-patch1"
-  },
-   "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/roikedem/date_recur"
-        },
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ]
+    "roikedem/date_recur": "dev-patched"
+  }
 }
