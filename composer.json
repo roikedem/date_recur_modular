@@ -18,7 +18,7 @@
    "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/roikedem/php-rrule"
+            "url": "https://github.com/roikedem/date_recur"
         },
         {
             "type": "composer",
